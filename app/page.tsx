@@ -3,7 +3,8 @@ import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
-    window.location.href = "https://www.csstatlab.com"
+    // window.location.href = "https://www.csstatlab.com"
+    console.log("lol")
   })
   return (
     <div className="h-screen bg-black" />
